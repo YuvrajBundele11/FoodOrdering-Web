@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.navbar {
+    background: rgb(222, 129, 30);
+    font-family: calibri;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a:hover {
+    color: rgba(129, 15, 38, 0.783);
+    /* Change color on hover */
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+    /* Add any other styles you want to apply on hover */
+}
+
+.logo a {
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.navdiv ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-left: 800px;
+}
+
+.container1,
+.container2,
+.container3 {
+    flex: 1;
+    margin-right: 20px;
+    text-align: center;
+    /* Optional: Align text in the center */
+}
+
+.container1:hover a,
+.container2:hover a,
+.container3:hover a {
+    color: black;
+    /* Change text color to white on hover */
+    font-weight: bold;
+    /* Make text bold on hover */
+}
+
+button {
+    background-color: rgb(210, 156, 156);
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+}
+
+button a:hover {
+    color: rgb(0, 0, 0);
+    /* text-decoration-color: aliceblue; */
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+/* panel start  */
+
+
+/* this is main container ,  */
+
+.panel {
+    height: 35px;
+    background-color: rgb(249, 187, 1);
+    /* display flex se sab div or box or section horizontally ho jyanga */
+    display: flex;
+    color: rgb(0, 0, 0);
+    /* margin-top: 0%; */
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.panel-all p {
+    width: 20%;
+    color: rgb(0, 0, 0);
+    padding-top: 6px;
+}
+
+.panel-ops p {
+    /* displau inline se el line mai ho jyange */
+    display: inline;
+    margin-left: 20px;
+}
+
+.panel-ops {
+    color: rgb(0, 0, 0);
+    width: 70%;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-top: 6px;
+}
+
+
+/* Hero section */
+
+
+/* 1 */
+
+.hero-section {
+    background-image: url(img/Hero4.jpg);
+    background-size: cover;
+    height: 650px;
+    border: 1px;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+/* 2 */
+
+.hero-message {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.hero-message a {
+    color: #007185;
+}
+
+
+/* shop - section */
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #dc9056;
+}
+
+.box {
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 23%;
+    background-color: rgb(226, 207, 207);
+    padding: 20px 0px 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.box-img {
+    height: 300px;
+    /* background-size: contain; */
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p {
+    color: #007185;
+}
